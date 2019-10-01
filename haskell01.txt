@@ -1,0 +1,9 @@
+tyrhaskell.org
+learnyouahaskell.com/starting-out
+
+sortare[] = []
+sortare(pivot:list) = sortare[x | x <- list, x < pivot] ++ [pivot] + [x | x <- list, x >= pivot]
+
+
+we open the lab1.hs file, using GHCi
+:r to reload a file
